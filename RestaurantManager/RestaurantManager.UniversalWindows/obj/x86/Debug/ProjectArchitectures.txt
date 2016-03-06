@@ -1,0 +1,2 @@
+E:\github\xaml-beginner\RestaurantManager\RestaurantManager.Models\RestaurantManager.Models.csproj;neutral
+E:\github\xaml-beginner\RestaurantManager\RestaurantManager.UniversalWindows\RestaurantManager.UniversalWindows.csproj;x86
