@@ -2,6 +2,10 @@
 <Roots >
   <Roots.PropertyPathNames>
     <RootPropertyPathName Name="OrderItems" />
+    <RootPropertyPathName Name="SpecialRequests" />
+    <RootPropertyPathName Name="Table" />
+    <RootPropertyPathName Name="Description" />
+    <RootPropertyPathName Name="Items" />
     <RootPropertyPathName Name="Title" />
     <RootPropertyPathName Name="CurrentlySelectedMenuItems" />
     <RootPropertyPathName Name="MenuItems" />
@@ -25,6 +29,7 @@
       <RootProperty Name="Text" />
       <RootProperty Name="HorizontalAlignment" />
       <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="Style" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Setter">
       <RootProperty Name="Property" />
@@ -51,6 +56,7 @@
       <RootProperty Name="Background" />
       <RootProperty Name="RowDefinitions" />
       <RootProperty Name="Children" />
+      <RootProperty Name="Height" />
       <RootProperty Name="ColumnDefinitions" />
       <RootMethod Name="GetRow" />
       <RootMethod Name="SetRow" />
@@ -67,20 +73,33 @@
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.GridView">
       <RootProperty Name="ItemsSource" />
+      <RootProperty Name="ItemTemplate" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Data.Binding" />
-    <RootType FullName="RestaurantManager.UniversalWindows.ExpeditePage" />
+    <RootType FullName="Windows.UI.Xaml.DataTemplate">
+      <RootProperty Name="Template" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.StackPanel">
+      <RootProperty Name="Width" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="Children" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Media.SolidColorBrush">
+      <RootProperty Name="Color" />
+    </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.ColumnDefinition">
       <RootProperty Name="Width" />
     </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.ListView">
+      <RootProperty Name="ItemsSource" />
+      <RootProperty Name="ItemTemplate" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="DisplayMemberPath" />
+    </RootType>
+    <RootType FullName="RestaurantManager.UniversalWindows.ExpeditePage" />
     <RootType FullName="RestaurantManager.UniversalWindows.MainPage" />
     <RootType FullName="RestaurantManager.Models.OrderDataManager" />
     <RootType FullName="Windows.UI.Xaml.Controls.TextBox" />
-    <RootType FullName="Windows.UI.Xaml.Controls.ListView">
-      <RootProperty Name="Margin" />
-      <RootProperty Name="ItemsSource" />
-      <RootProperty Name="DisplayMemberPath" />
-    </RootType>
     <RootType FullName="RestaurantManager.UniversalWindows.OrderPage" />
   </Roots.RootTypes>
 </Roots>

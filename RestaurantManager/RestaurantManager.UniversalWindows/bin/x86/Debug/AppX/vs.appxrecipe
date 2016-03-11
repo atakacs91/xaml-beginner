@@ -22,13 +22,13 @@
     <AppXManifest Include="E:\github\xaml-beginner\RestaurantManager\RestaurantManager.UniversalWindows\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-03-06T16:08:18.243</Modified>
+      <Modified>2016-03-11T17:02:02.563</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="E:\github\xaml-beginner\RestaurantManager\RestaurantManager.UniversalWindows\bin\x86\Debug\RestaurantManager.UniversalWindows.exe">
       <PackagePath>entrypoint\RestaurantManager.UniversalWindows.exe</PackagePath>
-      <Modified>2016-03-06T16:08:18.077</Modified>
+      <Modified>2016-03-11T17:02:01.769</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Andras\.nuget\packages\Microsoft.CSharp\4.0.0\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -473,7 +473,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\github\xaml-beginner\RestaurantManager\RestaurantManager.UniversalWindows\bin\x86\Debug\RestaurantManager.UniversalWindows.xr.xml">
       <PackagePath>RestaurantManager.UniversalWindows.xr.xml</PackagePath>
-      <Modified>2015-11-09T10:35:38.000</Modified>
+      <Modified>2016-03-11T17:01:35.757</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -481,11 +481,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\github\xaml-beginner\RestaurantManager\RestaurantManager.UniversalWindows\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2016-03-06T15:50:08.207</Modified>
+      <Modified>2016-03-11T17:02:02.474</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\github\xaml-beginner\RestaurantManager\RestaurantManager.UniversalWindows\bin\x86\Debug\Core\RestaurantManager.UniversalWindows.exe">
       <PackagePath>RestaurantManager.UniversalWindows.exe</PackagePath>
-      <Modified>2016-03-06T16:08:18.236</Modified>
+      <Modified>2016-03-11T17:02:02.556</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

@@ -26,6 +26,47 @@
             <RowDefinition Height="0.10*"/>
         </Grid.RowDefinitions>
         <GridView Grid.Row="1" ItemsSource="{Binding OrderItems}">
+            <GridView.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel Width="350" Margin="10">
+                        <Grid Height="200">
+                            <Grid.Background>
+                                <SolidColorBrush Color="{ThemeResource SystemBaseLowColor}"/>
+                            </Grid.Background>
+
+                            <ListView ItemsSource="{Binding Items}">
+                                <ListView.ItemTemplate>
+                                    <DataTemplate>
+                                        <TextBlock Text="{Binding Title}" FontSize="25"/>
+                                    </DataTemplate>
+                                </ListView.ItemTemplate>
+                            </ListView>
+                        </Grid>
+                        <Grid Height="200">
+                            <Grid.Background>
+                                <SolidColorBrush Color="{ThemeResource SystemBaseMediumColor}"/>
+                            </Grid.Background>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="3*"/>
+                                <ColumnDefinition Width="3*"/>
+                                <ColumnDefinition Width="3*"/>
+                            </Grid.ColumnDefinitions>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="3*" />
+                                <RowDefinition Height="3*" />
+                                <RowDefinition Height="3*" />
+                            </Grid.RowDefinitions>
+                            <TextBlock Text="{Binding Table.Description}" FontSize="30" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="3"/>
+                            <StackPanel Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="3" Margin="10,0,0,0">
+                                <TextBlock Text="Special Request:" />
+                                <TextBlock Text="{Binding SpecialRequests}" />
+                            </StackPanel>
+                            <Button Content="Delete" Grid.Row="2" Grid.Column="1"/>
+                        </Grid>
+                    </StackPanel>
+
+                </DataTemplate>
+            </GridView.ItemTemplate>
         </GridView>
         <Button Content="Clear All Orders" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="2" />
     </Grid>
