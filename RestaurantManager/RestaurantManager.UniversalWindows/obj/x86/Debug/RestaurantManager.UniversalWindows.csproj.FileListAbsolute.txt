@@ -640,3 +640,9 @@ E:\github\xaml-beginner\RestaurantManager\RestaurantManager.UniversalWindows\obj
 E:\github\xaml-beginner\RestaurantManager\RestaurantManager.UniversalWindows\obj\x86\Debug\qualifiers.txt.intermediate
 E:\github\xaml-beginner\RestaurantManager\RestaurantManager.UniversalWindows\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
 E:\github\xaml-beginner\RestaurantManager\RestaurantManager.UniversalWindows\obj\x86\Debug\ProjectArchitectures.txt
+E:\github\xaml-beginner\RestaurantManager\RestaurantManager.UniversalWindows\bin\x86\Debug\Microsoft.Xaml.Interactions.dll
+E:\github\xaml-beginner\RestaurantManager\RestaurantManager.UniversalWindows\bin\x86\Debug\Microsoft.Xaml.Interactivity.dll
+E:\github\xaml-beginner\RestaurantManager\RestaurantManager.UniversalWindows\bin\x86\Debug\RestaurantManager.Extensions.dll
+E:\github\xaml-beginner\RestaurantManager\RestaurantManager.UniversalWindows\bin\x86\Debug\RestaurantManager.Extensions.pdb
+E:\github\xaml-beginner\RestaurantManager\RestaurantManager.UniversalWindows\bin\x86\Debug\RestaurantManager.Extensions.pri
+E:\github\xaml-beginner\RestaurantManager\RestaurantManager.UniversalWindows\obj\x86\Debug\RestaurantManager.UniversalWindows.csproj.GenerateResource.Cache

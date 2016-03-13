@@ -4,12 +4,14 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:local="using:RestaurantManager.UniversalWindows"
     xmlns:models="using:RestaurantManager.Models"
+    xmlns:ext="using:RestaurantManager.Extensions"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
     <Page.DataContext>
         <models:ExpediteDataManager />
     </Page.DataContext>
+    
     <Page.TopAppBar>
         <AppBar>
             <AppBarButton Label="Home" Click="MainPage_Click">
@@ -19,6 +21,7 @@
             </AppBarButton>
         </AppBar>
     </Page.TopAppBar>
+    
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
         <Grid.RowDefinitions>
             <RowDefinition Height="0.05*"/>
@@ -43,25 +46,29 @@
                             </ListView>
                         </Grid>
                         <Grid Height="200">
+                            <Grid.Resources>
+                                <ext:BoolToColorConverter x:Key="BooleanToColorConverter" />
+                            </Grid.Resources>
                             <Grid.Background>
                                 <SolidColorBrush Color="{ThemeResource SystemBaseMediumColor}"/>
                             </Grid.Background>
-                            <Grid.ColumnDefinitions>
-                                <ColumnDefinition Width="3*"/>
-                                <ColumnDefinition Width="3*"/>
-                                <ColumnDefinition Width="3*"/>
-                            </Grid.ColumnDefinitions>
+                            
                             <Grid.RowDefinitions>
                                 <RowDefinition Height="3*" />
                                 <RowDefinition Height="3*" />
                                 <RowDefinition Height="3*" />
                             </Grid.RowDefinitions>
-                            <TextBlock Text="{Binding Table.Description}" FontSize="30" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="3"/>
-                            <StackPanel Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="3" Margin="10,0,0,0">
+                            <TextBlock Text="{Binding Table.Description}" FontSize="30" Grid.ColumnSpan="3"/>
+                            <StackPanel Grid.Row="1"  Margin="10,0,0,0">
                                 <TextBlock Text="Special Request:" />
                                 <TextBlock Text="{Binding SpecialRequests}" />
                             </StackPanel>
-                            <Button Content="Delete" Grid.Row="2" Grid.Column="1"/>
+                            <Grid Grid.Row="2" Width="350">
+                                <Grid.Background>
+                                    <SolidColorBrush Color="{Binding Expedite, Converter={StaticResource BooleanToColorConverter}}" />
+                                </Grid.Background>
+                                <Button Content="Delete" HorizontalAlignment="Center" />
+                            </Grid>
                         </Grid>
                     </StackPanel>
 

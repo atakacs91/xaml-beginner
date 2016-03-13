@@ -10,7 +10,7 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>da504085-789a-4d8f-a5b2-d97d22b73dfe</PackageIdentityName>
     <IntermediateOutputPath>E:\github\xaml-beginner\RestaurantManager\RestaurantManager.UniversalWindows\obj\x86\Debug\</IntermediateOutputPath>
-    <RegisteredManifestChecksum>156683A6EAD0D0A707A4761AA089050776AD9824C2633DE0D8C86D8E98FB80D2</RegisteredManifestChecksum>
+    <RegisteredManifestChecksum>D2BB00AF5B36B41A81779BFA372D58858A24C646F8F9968B1FA202F29E0460C0</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>da504085-789a-4d8f-a5b2-d97d22b73dfe_1.0.0.0_x86__nvkfqn0chb4rw</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>da504085-789a-4d8f-a5b2-d97d22b73dfe_nvkfqn0chb4rw!App</RegisteredUserModeAppID>
     <RegisteredPackageID>da504085-789a-4d8f-a5b2-d97d22b73dfe</RegisteredPackageID>
@@ -22,13 +22,21 @@
     <AppXManifest Include="E:\github\xaml-beginner\RestaurantManager\RestaurantManager.UniversalWindows\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-03-11T17:02:02.563</Modified>
+      <Modified>2016-03-13T19:36:06.412</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="E:\github\xaml-beginner\RestaurantManager\RestaurantManager.UniversalWindows\bin\x86\Debug\RestaurantManager.UniversalWindows.exe">
       <PackagePath>entrypoint\RestaurantManager.UniversalWindows.exe</PackagePath>
-      <Modified>2016-03-11T17:02:01.769</Modified>
+      <Modified>2016-03-13T19:36:05.587</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\BehaviorsXamlSDKManaged\12.0\References\CommonConfiguration\Neutral\Microsoft.Xaml.Interactions.dll">
+      <PackagePath>Microsoft.Xaml.Interactions.dll</PackagePath>
+      <Modified>2014-12-11T02:08:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\BehaviorsXamlSDKManaged\12.0\References\CommonConfiguration\Neutral\Microsoft.Xaml.Interactivity.dll">
+      <PackagePath>Microsoft.Xaml.Interactivity.dll</PackagePath>
+      <Modified>2014-12-11T02:08:10.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Andras\.nuget\packages\Microsoft.CSharp\4.0.0\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -442,6 +450,10 @@
       <PackagePath>System.Xml.XmlSerializer.dll</PackagePath>
       <Modified>2016-02-21T20:52:48.491</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\github\xaml-beginner\RestaurantManager\RestaurantManager.Extensions\bin\Debug\RestaurantManager.Extensions.dll">
+      <PackagePath>RestaurantManager.Extensions.dll</PackagePath>
+      <Modified>2016-03-13T18:59:59.470</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="E:\github\xaml-beginner\RestaurantManager\RestaurantManager.Models\bin\Debug\RestaurantManager.Models.dll">
       <PackagePath>RestaurantManager.Models.dll</PackagePath>
       <Modified>2016-03-06T16:08:16.795</Modified>
@@ -473,7 +485,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\github\xaml-beginner\RestaurantManager\RestaurantManager.UniversalWindows\bin\x86\Debug\RestaurantManager.UniversalWindows.xr.xml">
       <PackagePath>RestaurantManager.UniversalWindows.xr.xml</PackagePath>
-      <Modified>2016-03-11T17:01:35.757</Modified>
+      <Modified>2016-03-13T19:34:13.517</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -481,11 +493,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\github\xaml-beginner\RestaurantManager\RestaurantManager.UniversalWindows\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2016-03-11T17:02:02.474</Modified>
+      <Modified>2016-03-13T19:36:06.339</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\github\xaml-beginner\RestaurantManager\RestaurantManager.UniversalWindows\bin\x86\Debug\Core\RestaurantManager.UniversalWindows.exe">
       <PackagePath>RestaurantManager.UniversalWindows.exe</PackagePath>
-      <Modified>2016-03-11T17:02:02.556</Modified>
+      <Modified>2016-03-13T19:36:06.405</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
