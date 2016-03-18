@@ -1,34 +1,33 @@
-﻿using System.ComponentModel;
+﻿using RestaurantManager.Models;
+using System.ComponentModel;
 using System.Runtime.CompilerServices;
 
-namespace RestaurantManager.Models
+namespace RestaurantManager.ViewModels
 {
-    public abstract class DataManager : INotifyPropertyChanged
+    public abstract class ViewModel : INotifyPropertyChanged
     {
         protected RestaurantContext Repository { get; private set; }
 
-        public DataManager()
+        public ViewModel()
         {
             LoadData();
         }
 
         private async void LoadData()
         {
-            this.Repository = new RestaurantContext();
-            await this.Repository.InitializeContextAsync();
+            this.Repository = await RestaurantContextFactory.GetRestaurantContextAsync();
             OnDataLoaded();
-            
         }
 
         protected abstract void OnDataLoaded();
 
         public event PropertyChangedEventHandler PropertyChanged;
 
-        public void OnPropertyChanged([CallerMemberName]string propName = null)
+        public void NotifyPropertyChanged([CallerMemberName]string propertyName = null)
         {
             if (PropertyChanged != null)
             {
-                this.PropertyChanged(this, new PropertyChangedEventArgs(propName));
+                PropertyChanged(this, new PropertyChangedEventArgs(propertyName));
             }
         }
     }

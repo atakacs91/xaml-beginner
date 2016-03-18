@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
 
@@ -12,7 +13,7 @@ namespace RestaurantManager.Models
 
         public string SpecialRequests { get; set; }
 
-        public List<MenuItem> Items { get; set; }
+        public ObservableCollection<MenuItem> Items { get; set; }
 
         public Table Table { get; set; }
 

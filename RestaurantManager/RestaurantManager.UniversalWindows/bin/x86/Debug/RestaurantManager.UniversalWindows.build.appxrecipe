@@ -342,6 +342,9 @@
     <AppxPackagedFile Include="E:\github\xaml-beginner\RestaurantManager\RestaurantManager.Models\bin\Debug\RestaurantManager.Models.dll">
       <PackagePath>RestaurantManager.Models.dll</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\github\xaml-beginner\RestaurantManager\RestaurantManager.ViewModel\bin\Debug\RestaurantManager.ViewModel.dll">
+      <PackagePath>RestaurantManager.ViewModel.dll</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="E:\github\xaml-beginner\RestaurantManager\RestaurantManager.UniversalWindows\Assets\LargeSquareLogo.png">
       <PackagePath>Assets\LargeSquareLogo.png</PackagePath>
     </AppxPackagedFile>

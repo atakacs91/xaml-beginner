@@ -646,3 +646,6 @@ E:\github\xaml-beginner\RestaurantManager\RestaurantManager.UniversalWindows\bin
 E:\github\xaml-beginner\RestaurantManager\RestaurantManager.UniversalWindows\bin\x86\Debug\RestaurantManager.Extensions.pdb
 E:\github\xaml-beginner\RestaurantManager\RestaurantManager.UniversalWindows\bin\x86\Debug\RestaurantManager.Extensions.pri
 E:\github\xaml-beginner\RestaurantManager\RestaurantManager.UniversalWindows\obj\x86\Debug\RestaurantManager.UniversalWindows.csproj.GenerateResource.Cache
+E:\github\xaml-beginner\RestaurantManager\RestaurantManager.UniversalWindows\bin\x86\Debug\RestaurantManager.ViewModel.dll
+E:\github\xaml-beginner\RestaurantManager\RestaurantManager.UniversalWindows\bin\x86\Debug\RestaurantManager.ViewModel.pdb
+E:\github\xaml-beginner\RestaurantManager\RestaurantManager.UniversalWindows\bin\x86\Debug\RestaurantManager.ViewModel.pri
